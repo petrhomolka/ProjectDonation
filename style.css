@@ -1,0 +1,132 @@
+body
+{
+ margin:0px auto;
+ padding:0px;
+ text-align:center;
+ width:100%;
+ font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+ background-color:#ffffff;
+}
+h1
+{
+	font-size:30px;
+}
+#header
+{
+ width:100%;
+ margin:0px auto;
+ padding:0px;
+ text-align:center;
+ min-height:70px;
+ line-height:70px;
+}
+#header li
+{
+ display:inline-block;
+ margin-right:25px;
+ font-size:17px;
+ color:#505050;
+ font-weight:bold;
+ cursor:pointer;
+}
+#header #site_name
+{
+ text-align:left;
+ width:500px;
+ font-size:35px;
+ margin-left:20px;
+}
+#topBtn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+#topBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+#billboard
+{
+ width:1042px;
+ margin-left:auto;
+ margin-right:auto;
+ margin-bottom:200px;
+ box-sizing:border-box;
+ color:rgb(68, 68, 68);
+}
+#about,#rules,#contact,#FAQ
+{
+ width:90%;
+ max-width: 1300px;
+ margin-left:auto;
+ margin-right:auto;
+ padding:50px;
+ box-sizing:border-box;
+ color:rgb(68, 68, 68);
+}
+#bottom
+{
+	font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	color:rgb(68, 68, 68);
+}
+#about,#rules,#FAQ,#contact
+{
+ font-size:18px;
+}
+#FAQ ul
+{
+    display: inline-block; 
+	text-align: left; 
+	margin-top:0px;
+}
+#FAQ li
+{
+	margin: 10px 0;
+}
+#FAQ a,#about a
+{
+	cursor:pointer;
+	color:blue;
+	text-decoration:underline;
+}
+#FAQ h2
+{
+	font-size:20px;
+	margin-top: 50px;
+}
+#contact
+{
+ margin-bottom: 50px;
+}
+#billboard h1
+{
+ font-size:40px;
+}
+#billboard p
+{
+ font-size:20px;
+}
+#mainTable
+{
+	margin-left: auto; 
+	margin-right: auto;
+}
+#mainTable table, th, td
+{
+	text-align:center;
+}
+#mainTable td
+{
+	height: 70px;
+	width: 100px;
+	padding: 0px;
+	border: none;
+}
