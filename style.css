@@ -94,7 +94,6 @@ h1
 #FAQ a,#about a
 {
 	cursor:pointer;
-	color:blue;
 	text-decoration:underline;
 }
 #FAQ h2
