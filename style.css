@@ -53,6 +53,12 @@ h1
 #topBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+#billboard a, #about a, #rules a, #FAQ a, #contact a
+{
+	cursor:pointer;
+	color:#0066cc;
+	text-decoration:underline;
+}
 #billboard
 {
  width:1042px;
@@ -90,12 +96,6 @@ h1
 #FAQ li
 {
 	margin: 10px 0;
-}
-#about a, #rules a, #FAQ a, #contact a
-{
-	cursor:pointer;
-	color:#0066cc;
-	text-decoration:underline;
 }
 #FAQ h2
 {
