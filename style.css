@@ -91,9 +91,10 @@ h1
 {
 	margin: 10px 0;
 }
-#FAQ a,#about a
+#about a, #rules a, #FAQ a, #contact a
 {
 	cursor:pointer;
+	color:#0066cc;
 	text-decoration:underline;
 }
 #FAQ h2
